@@ -1,0 +1,103 @@
+html{
+	width: 100%;
+	padding: 0%;
+}
+
+
+.fa-filter{
+	color: #FFFFFF;
+}
+
+.popup{
+	display: none;
+}
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	background: #373B44;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.navbar{
+	background-color: #93dcf5;
+}
+
+.navbar-brand, .nav-link, .fa-filter:hover{
+	font-weight: bold;
+	font-family: 'Quicksand';
+	color: #014359;
+}
+
+
+#title{
+	text-decoration: none;
+	color: #360501
+}
+
+#title:hover{
+	transition: color 0.5s;
+	color: #ffffff;
+}
+
+.carousel-inner .carousel-item{
+	height: 450px;
+}
+.carousel-inner .carousel-item img{
+	max-height: 450px;
+}
+
+.card-body{
+	background-color: #888ff2;
+}
+
+p small{
+	color: #7f8387;
+}
+
+p small:hover{
+	transition: color 0.3s;
+	color: white;
+}
+
+video{
+	margin-top: 2%;
+	margin-left: 3%;
+	margin-right: 2%;
+	width: 70%;
+	height: 27%;
+}
+
+#vidDetails{
+	margin-left: 3.4%;
+	width: 65%;
+	color: #FFFFFF;
+}
+
+#vidDetails span{
+	text-align: center;
+}
+
+#vidDetails span i{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.list-group-flush{
+	float: right;
+	width: 20%;
+	margin-right: 1.5%;
+	margin-top: 4%;
+}
+
+div#vidDetails + hr{
+	margin-left: 3%;
+	width: 70%;
+}
+
+.descInfo{
+	margin-left: 3.4%;
+	width: 70%;
+}
